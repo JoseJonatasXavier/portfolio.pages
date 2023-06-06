@@ -1,0 +1,118 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	
+	font-family: 'Poppins', sans-serif;
+	background-color: #8470FF;
+}
+
+a {
+	
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+	padding: 0px 15px;
+
+	
+}
+
+a:hover {
+	background: #8470FF;
+	border-radius: 4px;
+	
+}
+
+h2 {
+	color: white;
+	text-align: center;
+	padding: 2px;
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+img{
+
+	padding-left: 440px;
+	width:480px;
+	display:flex;
+	
+}
+
+h3 img{
+	height: 50px;
+	width:50px;
+	
+}
+#principal {
+	
+	height: 79vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	background-color: #8470FF
+}
+
+#rodape {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	background-color: #483D8B;
+
+}
+
+.head {
+	text-align: center;
+	padding: 20px;
+	background-color: #6A5ACD;
+
+}
+
+#inicio .inicio a,
+#sobre .sobre a,
+#habilidades .habilidades a,
+#projetos .projetos a,
+#contatos .contatos a {
+	background-color: #8470FF;
+	color: #fff;
+	border-radius: 4px;
+}
+
+#email{
+	text-align: center;
+	margin-bottom: 28px;
+	font-size: 1.3em;
+}
+
+#linken{
+	height: 50px;
+	width: 50px;
+}
+#linken a {
+	height: 50px;
+	width: 50px;
+}
+
+#linken a img{
+	height: 50px;
+	width: 50px;
+}
+
+a span{
+	color: #483D8B;
+	font-size: 22px;
+}
+
+h2 span{
+	font-size: 22px;
+}

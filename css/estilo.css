@@ -1,0 +1,231 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
+
+
+* {
+	margin: 0px;
+	padding: 0px;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	
+	font-family: 'Poppins', sans-serif;
+	background-color: #8470FF;
+}
+
+a {
+	
+	color: white;
+	font-size: 1.2em;
+	text-decoration: none;
+	padding: 0px 15px;
+
+	
+}
+
+a:hover {
+	background: #8470FF;
+	border-radius: 4px;
+	
+}
+
+h2 {
+	color: white;
+	
+}
+
+h4 {
+	color: white;
+	text-align: center;
+
+}
+
+h3{
+	color: white;
+	text-align: center;
+}
+
+h3 img{
+	height: 50px;
+	width:50px;
+	
+}
+
+#principal {
+	
+	height: 79vh;
+	width: 100%;
+	display: flex;
+	align-items: center;
+
+	background-color: #8470FF
+}
+
+#rodape {
+	color: white;
+	text-align: center;
+	padding: 20px;
+	background-color: #483D8B;
+
+}
+
+#art2d img {
+	
+	width: 20px;
+	
+}
+
+.head {
+	text-align: center;
+	padding: 20px;
+	background-color: #6A5ACD;
+
+}
+
+#inicio .inicio a,
+#sobre .sobre a,
+#habilidades .habilidades a,
+#projetos .projetos a,
+#contatos .contatos a {
+	background-color: #8470FF;
+	color: #fff;
+	border-radius: 4px;
+}
+
+
+
+.person-content {
+	height: 100%;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+
+	flex-direction: column;
+}
+
+.person-content div h1 {
+	
+	font-size: 3rem;
+	color: white;
+}
+
+.tamanho {
+	font-size: 3rem;
+	margin-bottom: 20px;
+}
+.centro {
+	padding-left: 100px;
+}
+
+.person-name {
+	margin-top: 2rem;
+
+}
+
+
+
+.stacks-content{
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	flex-direction: column;
+
+
+}
+
+
+
+.stacks {
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.stacks ul li {
+	display: flex;
+	align-items: center;
+	margin: 10px;
+	padding: 10px;
+
+	list-style: none;
+}
+
+.stacks ul li img {
+    height: 35px;
+    width: 35px;
+
+    transition: transform .3s ease;
+}
+	
+
+div img:hover {
+	transform: scale(1.5);
+	cursor: pointer;
+}
+
+ul li div:hover::after{
+	content: attr(data);
+	position: absolute;
+	bottom: 130px;
+
+	width: 20px;
+	height: 20px;
+	color: white;
+	display: flex;
+	align-items: center;
+	flex-direction: row;
+}
+
+.hab {
+	text-align: center;
+	margin-top: 20PX;
+}
+
+.icones img{
+	height: 50px;
+	width: 50px;
+}
+
+.icones2 a img{
+	height: 50px;
+	width: 50px;
+	margin-top: 43px;
+}
+
+.icones3 img{
+   
+   
+   height: 130px;
+   width: 200px;
+
+}
+
+#email{
+	text-align: center;
+	margin-bottom: 30px;
+	font-size: 1.3em;
+}
+
+#conversa{
+	font-size: 1em;
+}
+
+.margin{
+	margin-top: 20px;
+}
+/*projetos*/
+
+#pro span{
+	margin: 20px;
+}
+
+
+
+
+
+
+
